@@ -1,0 +1,126 @@
+/*Full Stack Final Project Term 1 CSS - Adhvik Harikrishnan*/
+
+html, body {
+    height: 100%; 
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.alphacoders.com/997/997468.jpg');
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #03D0C6;
+}
+
+h1 {
+    color: rgb(25, 226, 244);
+    font-family: 'Pacifico', cursive;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.banner {
+    background-color: rgba(10, 234, 238, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex: 1;
+}
+
+.column, .centercolumn {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.centercolumn {
+    flex: 1.4;
+    font-size: 21px; 
+}
+
+.table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 17px;
+}
+
+th {
+    background-color: rgba(39, 193, 244, 0.8); 
+    color: black; 
+    padding: 12px; 
+    border: 1px solid black; 
+    text-align: center; 
+    font-family: 'Pacifico', cursive; 
+    font-size: 18.5px;
+}
+
+.footer {
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+legend {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+input[type="submit"] {
+    background-color: rgb(25, 226, 244);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(15, 170, 190);
+}

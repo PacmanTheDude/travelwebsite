@@ -1,0 +1,163 @@
+<!-- Full Stack Final Project Term 1 HTML - Adhvik Harikrishnan -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="travelwebsite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Travel Website - Bora Bora</title>
+</head>
+<body>
+
+<!-- Banner Section -->
+<div class="banner"> Travel Website - Bora Bora </div>
+
+<!-- Main Container -->
+<div class="container">
+    <!-- Similar Destinations Column -->
+    <div class="column">
+        <center>
+            <h1>Similar Destinations</h1>
+        </center>
+
+        <center>
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Maldives</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Maldives" target="_blank">Specific Destination Link</a></td>
+                    <td>Known for its crystal-clear waters and luxury resorts, perfect for a romantic getaway.</td>
+                </tr>
+                <tr>
+                    <td>Fiji</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Fiji" target="_blank">Specific Destination Link</a></td>
+                    <td>A tropical paradise with beautiful beaches and vibrant coral reefs, ideal for diving.</td>
+                </tr>
+                <tr>
+                    <td>Maui, Hawaii</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Maui" target="_blank">Specific Destination Link</a></td>
+                    <td>Famous for its stunning beaches, lush landscapes, and the scenic Road to Hana.</td>
+                </tr>
+                <tr>
+                    <td>Phuket, Thailand</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Phuket" target="_blank">Specific Destination Link</a></td>
+                    <td>Offers a mix of nightlife, culture, and beautiful beaches, great for adventure seekers.</td>
+                </tr>
+                <tr>
+                    <td>Palawan, Philippines</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Palawan" target="_blank">Specific Destination Link</a></td>
+                    <td>Renowned for its stunning landscapes, clear waters, and biodiversity, perfect for eco-tourism.</td>
+                </tr>
+                <tr>
+                    <td>Java, Indonesia</td>
+                    <td><a href="#">Specific Destination Link</a></td>
+                    <td>A vibrant island rich in culture, history, and stunning landscapes, known for its volcanoes.</td>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <!-- Main Destination Information Column -->
+    <div class="centercolumn">
+        <center>
+            <h1>Main Destination Information</h1>
+        </center>
+        <ul>
+            <li>Bora Bora is located in the South Pacific Ocean, part of French Polynesia.</li>
+            <li>Approximately 29.3 square kilometers (11.3 square miles) in area.</li>
+            <li>Around 10,000 inhabitants.</li>
+            <li>French and Tahitian are the official languages.</li>
+            <li>Tropical climate with a wet season from December to March and a dry season from April to November.</li>
+            <li>Currency is French Pacific Franc (XPF).</li>
+            <li>Key attractions include stunning lagoons, coral reefs, Mount Otemanu, and luxury resorts.</li>
+            <li>Activities include snorkeling, scuba diving, beach relaxation, and boat tours.</li>
+            <li>Accessible by air from Tahiti, with limited international flights.</li>
+            <li>A popular honeymoon destination known for its beauty and luxury accommodations.</li>
+            <li>Local cuisine features fresh seafood, tropical fruits, and traditional Polynesian dishes.</li>
+            <li>The island is famous for its overwater bungalows and vibrant coral gardens.</li>
+            <li>Bora Bora hosts several cultural festivals, showcasing traditional music and dance.</li>
+            <li>Best visited between April and October for optimal weather conditions.</li>
+        </ul>
+    </div>
+
+    <!-- Traveling to Bora Bora Form Column -->
+    <div class="column">
+        <center>
+            <h1>Traveling to Bora Bora?</h1>
+        </center>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="first-name">What is your first name?</label>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+    
+                <label for="last-name">What is your last name?</label>
+                <input type="text" id="last-name" name="last-name" required><br><br>
+    
+                <label for="age">How old are you?</label>
+                <input type="number" id="age" name="age" required><br><br>
+    
+                <label for="gender">What is your gender?</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Travel Preferences</legend>
+                <label for="travel-dates">What are your travel dates?</label>
+                <input type="text" id="travel-dates" name="travel-dates" required><br><br>
+    
+                <label>How do you plan to travel?</label><br>
+                <input type="radio" id="flight" name="transport" value="flight" required>
+                <label for="flight">By Flight</label><br>
+                <input type="radio" id="cruise" name="transport" value="cruise">
+                <label for="cruise">By Cruise</label><br><br>
+    
+                <label for="accommodation">What type of accommodation do you prefer?</label>
+                <select id="accommodation" name="accommodation">
+                    <option value="hotel">Hotel</option>
+                    <option value="villa">Villa</option>
+                    <option value="resort">Resort</option>
+                </select><br><br>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Activities</legend>
+                <label for="activities">What activities are you interested in? (Select all that apply)</label><br>
+                <input type="checkbox" id="snorkeling" name="activities" value="snorkeling">
+                <label for="snorkeling">Snorkeling</label><br>
+                <input type="checkbox" id="hiking" name="activities" value="hiking">
+                <label for="hiking">Hiking</label><br>
+                <input type="checkbox" id="sightseeing" name="activities" value="sightseeing">
+                <label for="sightseeing">Sightseeing</label><br>
+                <input type="checkbox" id="spa" name="activities" value="spa">
+                <label for="spa">Spa Treatments</label><br><br>
+    
+                <label for="level">What is your experience level for water activities?</label>
+                <select id="level" name="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select><br><br>
+            </fieldset><br>
+
+            <center>
+                <input type="submit" value="Submit"><br><br>
+            </center>
+        </form>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+    © 2024 Adhvik Harikrishnan
+</footer>
+
+</body>
+</html>
